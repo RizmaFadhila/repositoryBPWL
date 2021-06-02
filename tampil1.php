@@ -15,6 +15,8 @@ $db = new database1();
             <th scope="col">Aksi</th>
           </tr>
           <?php
+         
+         
     $no = 1;
     foreach ($db->tampil_data() as $x){
          	?>
